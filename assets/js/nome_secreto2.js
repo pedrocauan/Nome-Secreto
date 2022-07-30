@@ -67,7 +67,7 @@ addEventListener("keydown", (e) => {
         window.document.body.innerHTML = `<h1 class="avisoSimple">NOME ERRADO !!</h1>`
         const espera = () =>{
             setInterval(() => {
-                window.location.href = "Index.html" //segunda pagina
+                window.location.href = "índex.html" //segunda pagina
             },3000)
         }
         espera()
