@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'pixel font';
+    src: url('../fonts/pixelfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 50px;
+    font-family: 'pixel font';
+    font-size: 40px;
+    gap: 30px;
+
+}
+
+.bg-colorSimple {
+    background-color: black;
+}
+
+.telaSimple {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    max-width: 60rem;
+    color: red;
+}
+
+.titleAestetic {
+    background-color: blue;
+    width: 100%;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    justify-content: space-between;
+    color: white;
+}
+
+.avisoSimple {
+    color: red;
+}

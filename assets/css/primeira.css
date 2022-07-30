@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'pixel font';
+    src: url('../fonts/pixelfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 50px;
+    font-family: 'pixel font';
+    font-size: 40px;
+    gap: 30px;
+
+}
+
+.bg-colorAestetic {
+    background-color: #FFC0CB;
+}
+
+.telaAestetic {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    background-color: #d6d6d6;
+    box-shadow: 2rem 2rem 0 0 rgba(0, 0, 0, 0.8), inset 1rem 1rem 1rem 2rem rgba(159, 159, 159, 0.5);
+    border: 1rem solid black;
+    max-width: 60rem;
+}
+
+.titleAestetic {
+    background-color: blue;
+    width: 100%;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    justify-content: space-between;
+    color: white;
+}
+
+.avisoAestetic {
+    color: red;
+}
