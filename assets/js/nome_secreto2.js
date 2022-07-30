@@ -25,7 +25,7 @@ addEventListener("keydown", (e) => {
     if (nomeDigitado.includes(letra))
         return
     //Ve se o nome que ta sendo digitado é paulo
-    if (!(letra === "p" || letra === "a" || letra === "u" || letra === "l" || letra === "o" || letra === "r" || letr === "o" || letra === "i" || letra === "u" || letra === "t" || letra === "c"))
+    if (!(letra === "p" || letra === "a" || letra === "u" || letra === "l" || letra === "o" || letra === "r" || letr === "o" || letra === "i" || letra === "u" || letra === "t" || letra === "c") || letra === "i")
         return/*não digita a letra errada na tela e sai da função*/
 
     nomeDigitado.push(letra) //Guarda a letra certa no array nome
